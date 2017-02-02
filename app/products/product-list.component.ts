@@ -19,7 +19,8 @@ export class ProductListComponent
     imageWidth: number = 50;
     imageMargin: number = 2;
     showImage: boolean = false;
-    imageFilter: string = 'cart';
+    listFilter: string;
+    errorMessage: string;
 
     products: IProduct[];
 
@@ -31,7 +32,10 @@ export class ProductListComponent
     }
 
     ngOnInit(): void {
-        this.products = this._productService.getProducts();
+        this._productService.getProducts().subscribe(
+            products => this.products = products,
+            error => this.errorMessage = <any>error
+        );
     }
 
     onRatingClicked(message: string) {
