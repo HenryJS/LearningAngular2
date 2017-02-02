@@ -7,7 +7,8 @@ import { Component, OnChanges, Input,
 @Component({
     selector: 'ai-star',
     moduleId: module.id,
-    templateUrl: 'star.component.html'
+    templateUrl: 'star.component.html',
+    styleUrls: ['star.component.css']
 })
 export class StarComponent implements OnChanges {
     @Input() rating: number;

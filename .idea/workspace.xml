@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87f1f6fd-9629-43a9-a054-2cb11135de20" name="Default" comment="">
+    <list default="true" id="87f1f6fd-9629-43a9-a054-2cb11135de20" name="Default" comment="Module 9: HTTP&#10;Retrieve data from a remote HTTP service and expose using Observables">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.ts" afterPath="$PROJECT_DIR$/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/products/product-list.component.ts" afterPath="$PROJECT_DIR$/app/products/product-list.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/products/product.service.ts" afterPath="$PROJECT_DIR$/app/products/product.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/star.component.ts" afterPath="$PROJECT_DIR$/app/shared/star.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,10 +24,22 @@
       <file leaf-file-name="star.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/shared/star.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding>
                 <element signature="e#41#132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="star.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/shared/star.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,13 +139,13 @@
         <option value="$PROJECT_DIR$/app/products/product.ts" />
         <option value="$PROJECT_DIR$/app/products/product-list.component.css" />
         <option value="$PROJECT_DIR$/app/products/product-filter.pipe.ts" />
-        <option value="$PROJECT_DIR$/app/shared/star.component.ts" />
-        <option value="$PROJECT_DIR$/app/shared/star.component.html" />
         <option value="$PROJECT_DIR$/app/app.component.ts" />
         <option value="$PROJECT_DIR$/app/products/product-list.component.html" />
         <option value="$PROJECT_DIR$/app/app.module.ts" />
         <option value="$PROJECT_DIR$/app/products/product-list.component.ts" />
         <option value="$PROJECT_DIR$/app/products/product.service.ts" />
+        <option value="$PROJECT_DIR$/app/shared/star.component.html" />
+        <option value="$PROJECT_DIR$/app/shared/star.component.ts" />
       </list>
     </option>
   </component>
@@ -352,7 +362,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486028986130</updated>
-      <workItem from="1486028987311" duration="12201000" />
+      <workItem from="1486028987311" duration="12669000" />
     </task>
     <task id="LOCAL-00001" summary="End of the introductory modules">
       <created>1486033672286</created>
@@ -403,11 +413,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486050300452</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Module 9: HTTP&#10;Retrieve data from a remote HTTP service and expose using Observables">
+      <created>1486052016244</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1486052016244</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12201000" />
+    <option name="totallyTimeSpent" value="12669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -467,7 +484,8 @@
     <MESSAGE value="Module 7: More on Components&#10;Custom pipes, importing CSS and Interfaces" />
     <MESSAGE value="Module 7: Nested Components&#10;A nested component with input and output.&#10;Not sure the stars work thoguh..." />
     <MESSAGE value="Module 8: Services&#10;Abstracted Products into a dedicated service, registered it and then exposed it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 8: Services&#10;Abstracted Products into a dedicated service, registered it and then exposed it." />
+    <MESSAGE value="Module 9: HTTP&#10;Retrieve data from a remote HTTP service and expose using Observables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 9: HTTP&#10;Retrieve data from a remote HTTP service and expose using Observables" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -550,16 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/shared/star.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -577,16 +585,6 @@
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/products/product-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#42#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -627,10 +625,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/shared/star.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shared/star.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/product-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#42#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/shared/star.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding>
             <element signature="e#41#132#0" expanded="true" />
           </folding>
