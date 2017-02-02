@@ -1,2 +1,12 @@
 node_modules
 typings
+app/app.component.js
+app/app.module.js
+app/home/welcome.component.js
+app/main.js
+app/products/product-list.component.js
+app/app.component.js.map
+app/app.module.js.map
+app/home/welcome.component.js.map
+app/main.js.map
+app/products/product-list.component.js.map
