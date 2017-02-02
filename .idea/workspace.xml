@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87f1f6fd-9629-43a9-a054-2cb11135de20" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/products/product.service.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.component.ts" afterPath="$PROJECT_DIR$/app/app.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/products/product-list.component.html" afterPath="$PROJECT_DIR$/app/products/product-list.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/star.component.html" afterPath="$PROJECT_DIR$/app/shared/star.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/star.component.ts" afterPath="$PROJECT_DIR$/app/shared/star.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/products/product-list.component.ts" afterPath="$PROJECT_DIR$/app/products/product-list.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/app/shared/star.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding>
                 <element signature="e#41#132#0" expanded="true" />
               </folding>
@@ -59,21 +60,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product-list.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="product-list.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/products/product-list.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+            <state relative-caret-position="126">
+              <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product-list.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="product-list.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/products/product-list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+            <state relative-caret-position="465">
+              <caret line="33" column="60" lean-forward="false" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
               <folding>
                 <element signature="e#42#92#0" expanded="true" />
               </folding>
@@ -96,10 +97,11 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="150">
+              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding>
-                <marker date="1486034630000" expanded="true" signature="119:221" ph="..." />
+                <element signature="e#0#41#0" expanded="true" />
+                <marker date="1486049955000" expanded="true" signature="178:280" ph="..." />
               </folding>
             </state>
           </provider>
@@ -118,6 +120,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="github" target-branch="master" />
+    </push-targets>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -125,15 +130,16 @@
         <option value="$PROJECT_DIR$/app/product-list.component.ts" />
         <option value="$PROJECT_DIR$/app/product-list.component.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/app.component.ts" />
         <option value="$PROJECT_DIR$/app/products/product.ts" />
         <option value="$PROJECT_DIR$/app/products/product-list.component.css" />
         <option value="$PROJECT_DIR$/app/products/product-filter.pipe.ts" />
         <option value="$PROJECT_DIR$/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/app/products/product-list.component.ts" />
         <option value="$PROJECT_DIR$/app/shared/star.component.ts" />
         <option value="$PROJECT_DIR$/app/shared/star.component.html" />
+        <option value="$PROJECT_DIR$/app/products/product.service.ts" />
+        <option value="$PROJECT_DIR$/app/app.component.ts" />
         <option value="$PROJECT_DIR$/app/products/product-list.component.html" />
+        <option value="$PROJECT_DIR$/app/products/product-list.component.ts" />
       </list>
     </option>
   </component>
@@ -332,7 +338,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486028986130</updated>
-      <workItem from="1486028987311" duration="10109000" />
+      <workItem from="1486028987311" duration="10822000" />
     </task>
     <task id="LOCAL-00001" summary="End of the introductory modules">
       <created>1486033672286</created>
@@ -369,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486048527014</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Module 7: Nested Components&#10;A nested component with input and output.&#10;Not sure the stars work thoguh...">
+      <created>1486049290728</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1486049290728</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10109000" />
+    <option name="totallyTimeSpent" value="10822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -418,6 +431,8 @@
         <option value="$PROJECT_DIR$/app/products/product-filter.pipe.js.map" />
         <option value="$PROJECT_DIR$/app/shared/star.component.js.map" />
         <option value="$PROJECT_DIR$/app/shared/star.component.js" />
+        <option value="$PROJECT_DIR$/app/products/product.service.js.map" />
+        <option value="$PROJECT_DIR$/app/products/product.service.js" />
       </list>
     </option>
   </component>
@@ -487,16 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding>
-            <marker date="1486034630000" expanded="true" signature="119:221" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/products/products.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -551,26 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/products/product-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding>
-            <element signature="e#42#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/shared/star.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="e#41#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/shared/star.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -581,11 +566,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/product.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="e#1#41#0" expanded="false" />
+            <element signature="e#44#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1486049955000" expanded="true" signature="178:280" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/products/product-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        <state relative-caret-position="126">
+          <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shared/star.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="e#41#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/product-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="60" lean-forward="false" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="e#42#92#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
